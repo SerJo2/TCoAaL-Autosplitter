@@ -1,3 +1,6 @@
 {
-  "Any%": true
+  "Any%": false,
+  "ep1": false,
+  "ep2": false,
+  "Ep1 + Ep2": true
 }
