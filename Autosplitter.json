@@ -1,154 +1,6 @@
 {
   "splits": [
     {
-      "name": "Any%",
-      "activators": [
-        {
-          "type": "event",
-          "map": 19,
-          "from": null,
-          "to": null,
-          "event": 1,
-          "page": 1,
-          "line": 2,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 62,
-          "from": null,
-          "to": null,
-          "event": 2,
-          "page": 1,
-          "line": 6,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        }
-      ],
-      "start": false
-    },
-    {
-      "name": "ep1",
-      "activators": [
-        {
-          "type": "event",
-          "map": 3,
-          "from": null,
-          "to": null,
-          "event": 20,
-          "page": 4,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 4,
-          "from": null,
-          "to": null,
-          "event": 17,
-          "page": 1,
-          "line": 6,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 7,
-          "from": null,
-          "to": null,
-          "event": 32,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 19,
-          "from": null,
-          "to": null,
-          "event": 1,
-          "page": 1,
-          "line": 2,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        }
-      ],
-      "start": false
-    },
-    {
-      "name": "ep2",
-      "activators": [
-        {
-          "type": "event",
-          "map": 34,
-          "from": null,
-          "to": null,
-          "event": 6,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 52,
-          "from": null,
-          "to": null,
-          "event": 37,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 49,
-          "from": null,
-          "to": null,
-          "event": 37,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 62,
-          "from": null,
-          "to": null,
-          "event": 2,
-          "page": 1,
-          "line": 6,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        }
-      ],
-      "start": false
-    },
-    {
       "name": "Ep1 + Ep2",
       "activators": [
         {
@@ -257,12 +109,94 @@
         }
       ],
       "start": false
+    },
+    {
+      "name": "all achibs",
+      "activators": [
+        {
+          "type": "event",
+          "map": 19,
+          "from": null,
+          "to": null,
+          "event": 2,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 22,
+          "from": null,
+          "to": null,
+          "event": 14,
+          "page": 3,
+          "line": 25,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 36,
+          "from": null,
+          "to": null,
+          "event": 19,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 24,
+          "from": null,
+          "to": null,
+          "event": 16,
+          "page": 1,
+          "line": 47,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 62,
+          "from": null,
+          "to": null,
+          "event": 2,
+          "page": 1,
+          "line": 3,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 94,
+          "from": null,
+          "to": null,
+          "event": 9,
+          "page": 1,
+          "line": 49,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        }
+      ],
+      "start": false
     }
   ],
   "defaults": {
-    "Any%": true,
-    "ep1": false,
-    "ep2": false,
-    "Ep1 + Ep2": false
+    "Ep1 + Ep2": false,
+    "all achibs": false
   }
 }
