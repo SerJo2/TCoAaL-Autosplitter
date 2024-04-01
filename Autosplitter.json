@@ -193,10 +193,121 @@
         }
       ],
       "start": false
+    },
+    {
+      "name": "Incest%",
+      "activators": [
+        {
+          "type": "event",
+          "map": 3,
+          "from": null,
+          "to": null,
+          "event": 20,
+          "page": 4,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 4,
+          "from": null,
+          "to": null,
+          "event": 17,
+          "page": 1,
+          "line": 6,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 7,
+          "from": null,
+          "to": null,
+          "event": 32,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 19,
+          "from": null,
+          "to": null,
+          "event": 1,
+          "page": 1,
+          "line": 2,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 34,
+          "from": null,
+          "to": null,
+          "event": 6,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 52,
+          "from": null,
+          "to": null,
+          "event": 37,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 49,
+          "from": null,
+          "to": null,
+          "event": 37,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 57,
+          "from": null,
+          "to": null,
+          "event": 19,
+          "page": 1,
+          "line": 13,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        }
+      ],
+      "start": false
     }
   ],
   "defaults": {
     "Ep1 + Ep2": false,
-    "all achibs": false
+    "all achibs": false,
+    "Incest%": false
   }
 }
