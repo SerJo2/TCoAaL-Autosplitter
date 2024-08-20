@@ -1,7 +1,7 @@
 {
   "splits": [
     {
-      "name": "Ep1 + Ep2",
+      "name": "Any%",
       "activators": [
         {
           "type": "event",
@@ -111,7 +111,7 @@
       "start": false
     },
     {
-      "name": "all achibs",
+      "name": "All achivements",
       "activators": [
         {
           "type": "event",
@@ -308,6 +308,8 @@
   "defaults": {
     "Ep1 + Ep2": false,
     "all achibs": false,
-    "Incest%": false
+    "Incest%": false,
+    "Any%": false,
+    "All achivements": false
   }
 }
