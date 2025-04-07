@@ -23,7 +23,7 @@
           "to": null,
           "event": 17,
           "page": 1,
-          "line": 0,
+          "line": 6,
           "id": null,
           "value": null,
           "any": null,
@@ -49,7 +49,7 @@
           "to": null,
           "event": 1,
           "page": 1,
-          "line": 4,
+          "line": 2,
           "id": null,
           "value": null,
           "any": null,
@@ -101,7 +101,7 @@
           "to": null,
           "event": 2,
           "page": 1,
-          "line": 8,
+          "line": 6,
           "id": null,
           "value": null,
           "any": null,
@@ -225,10 +225,94 @@
           "common": false
         }
       ],
-      "start": true
+      "start": false
+    },
+    {
+      "name": "All achivements",
+      "activators": [
+        {
+          "type": "event",
+          "map": 19,
+          "from": null,
+          "to": null,
+          "event": 2,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 22,
+          "from": null,
+          "to": null,
+          "event": 14,
+          "page": 3,
+          "line": 25,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 36,
+          "from": null,
+          "to": null,
+          "event": 19,
+          "page": 1,
+          "line": 0,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 24,
+          "from": null,
+          "to": null,
+          "event": 16,
+          "page": 1,
+          "line": 47,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 62,
+          "from": null,
+          "to": null,
+          "event": 2,
+          "page": 1,
+          "line": 3,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        },
+        {
+          "type": "event",
+          "map": 94,
+          "from": null,
+          "to": null,
+          "event": 9,
+          "page": 1,
+          "line": 49,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": false
+        }
+      ],
+      "start": false
     }
   ],
   "defaults": {
-    "Any%": true
+    "Any%": false
   }
 }
