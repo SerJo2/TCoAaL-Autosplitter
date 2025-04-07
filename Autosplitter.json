@@ -1,234 +1,26 @@
 {
   "splits": [
     {
-      "name": "Any%",
+      "name": "New Split",
       "activators": [
         {
-          "type": "event",
-          "map": 3,
+          "type": "newgame",
+          "map": null,
           "from": null,
           "to": null,
-          "event": 20,
-          "page": 4,
-          "line": 0,
+          "event": null,
+          "page": null,
+          "line": null,
           "id": null,
           "value": null,
           "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 4,
-          "from": null,
-          "to": null,
-          "event": 17,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 7,
-          "from": null,
-          "to": null,
-          "event": 32,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 19,
-          "from": null,
-          "to": null,
-          "event": 1,
-          "page": 1,
-          "line": 4,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 34,
-          "from": null,
-          "to": null,
-          "event": 6,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 52,
-          "from": null,
-          "to": null,
-          "event": 37,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 49,
-          "from": null,
-          "to": null,
-          "event": 37,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 62,
-          "from": null,
-          "to": null,
-          "event": 2,
-          "page": 1,
-          "line": 8,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 110,
-          "from": null,
-          "to": null,
-          "event": 9,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 143,
-          "from": null,
-          "to": null,
-          "event": 127,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 131,
-          "from": null,
-          "to": null,
-          "event": 9,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 232,
-          "from": null,
-          "to": null,
-          "event": 15,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 163,
-          "from": null,
-          "to": null,
-          "event": 7,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 61,
-          "from": null,
-          "to": null,
-          "event": 3,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 172,
-          "from": null,
-          "to": null,
-          "event": 16,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 193,
-          "from": null,
-          "to": null,
-          "event": 56,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 221,
-          "from": null,
-          "to": null,
-          "event": 20,
-          "page": 1,
-          "line": 8,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
+          "common": null
         }
       ],
       "start": true
     }
   ],
   "defaults": {
-    "Any%": true
+    "New Split": true
   }
 }
