@@ -3,12 +3,6 @@
 var $plugins =
 [
   {
-    "name": "Decryption",
-    "status": true,
-    "description": "",
-    "parameters": {}
-  },
-  {
     "name": "YEP_CoreEngine",
     "status": true,
     "description": "v1.31 Needed for the majority of Yanfly Engine Scripts. Also\r\ncontains bug fixes found inherently in RPG Maker.",
@@ -89,7 +83,7 @@ var $plugins =
   {
     "name": "YEP_MessageCore",
     "status": true,
-    "description": "v1.19 Adds more features to the Message Window to customized\nthe way your messages appear and functions.",
+    "description": "v1.19 Adds more features to the Message Window to customized\r\nthe way your messages appear and functions.",
     "parameters": {
       "---General---": "",
       "Default Rows": "4",
@@ -243,11 +237,11 @@ var $plugins =
     "status": true,
     "description": "v1.04 Use regions to block out Events and/or the player from\nbeing able to venture into those spots.",
     "parameters": {
-      "Player Restrict": "2",
+      "Player Restrict": "2 4",
       "Event Restrict": "3",
       "All Restrict": "2",
       "Player Allow": "0",
-      "Event Allow": "0",
+      "Event Allow": "4",
       "All Allow": "0"
     }
   },
@@ -427,12 +421,6 @@ var $plugins =
       "Command Exit": "Quit Game",
       "Show Exit": "true"
     }
-  },
-  {
-    "name": "Yami_SkipTitle",
-    "status": false,
-    "description": "Skip the title scene for testing purpose.",
-    "parameters": {}
   },
   {
     "name": "LiveSplit",
