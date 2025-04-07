@@ -246,13 +246,13 @@
     // Auto Start
 
     function autoStart(){
-        if (ConfigManager['autoStart'] && !startOverridden){
-            if (ConfigManager['autoSplit'] && splits["newgame"].filter(split => split.enabled).length > 0){
+        if (true && !startOverridden){
+            if (true && splits["newgame"].filter(split => split.enabled).length > 0){
                 sendMessage("startorsplit");
             }else{
                 sendMessage("starttimer");
             }
-        }else if (ConfigManager['autoSplit'] && splits["newgame"].filter(split => split.enabled).length > 0){
+        }else if (true && splits["newgame"].filter(split => split.enabled).length > 0){
             sendMessage("split");
         }
     }
@@ -275,7 +275,7 @@
     var _SceneManager_onKeyDown = SceneManager.onKeyDown;
     SceneManager.onKeyDown = function(event) {
         _SceneManager_onKeyDown.call(this, event);
-        if (event.keyCode === 116 && ConfigManager['autoReset']) {
+        if (event.keyCode === 116 && true) {
             sendMessage("reset");
         }
     }
@@ -289,34 +289,6 @@
                 sendMessage(args.slice(1).join(" "));
                 break;
         }
-    }
-
-    // Add settings
-    var _Window_Options_makeCommandList = Window_Options.prototype.makeCommandList;
-    Window_Options.prototype.makeCommandList = function() {
-        _Window_Options_makeCommandList.call(this);
-        this.addCommand("Auto Start", 'autoStart');
-        this.addCommand("Auto Split", 'autoSplit');
-        this.addCommand("Auto Reset", 'autoReset');
-    }
-
-    // Overwrite ConfigManager.makeData
-    var _ConfigManager_makeData = ConfigManager.makeData;
-    ConfigManager.makeData = function() {
-        var config = _ConfigManager_makeData.call(this);
-        config['autoStart'] = ConfigManager['autoStart'];
-        config['autoSplit'] = ConfigManager['autoSplit'];
-        config['autoReset'] = ConfigManager['autoReset'];
-        return config;
-    }
-
-    // Overwrite ConfigManager.applyData
-    var _ConfigManager_applyData = ConfigManager.applyData;
-    ConfigManager.applyData = function(config) {
-        _ConfigManager_applyData.call(this, config);
-        ConfigManager['autoStart'] = config['autoStart'];
-        ConfigManager['autoSplit'] = config['autoSplit'];
-        ConfigManager['autoReset'] = config['autoReset'];
     }
 
 })();
