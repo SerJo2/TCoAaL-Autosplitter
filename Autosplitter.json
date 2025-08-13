@@ -121,17 +121,17 @@
           "common": false
         },
         {
-          "type": "event",
-          "map": 143,
-          "from": null,
-          "to": null,
-          "event": 127,
-          "page": 1,
-          "line": 0,
+          "type": "transition",
+          "map": null,
+          "from": 122,
+          "to": 124,
+          "event": null,
+          "page": null,
+          "line": null,
           "id": null,
           "value": null,
           "any": null,
-          "common": false
+          "common": null
         },
         {
           "type": "event",
@@ -139,19 +139,6 @@
           "from": null,
           "to": null,
           "event": 9,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 232,
-          "from": null,
-          "to": null,
-          "event": 15,
           "page": 1,
           "line": 0,
           "id": null,
@@ -178,19 +165,6 @@
           "from": null,
           "to": null,
           "event": 3,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 196,
-          "from": null,
-          "to": null,
-          "event": 8,
           "page": 1,
           "line": 0,
           "id": null,
@@ -484,17 +458,17 @@
           "common": false
         },
         {
-          "type": "event",
-          "map": 143,
-          "from": null,
-          "to": null,
-          "event": 127,
-          "page": 1,
-          "line": 0,
+          "type": "transition",
+          "map": null,
+          "from": 122,
+          "to": 124,
+          "event": null,
+          "page": null,
+          "line": null,
           "id": null,
           "value": null,
           "any": null,
-          "common": false
+          "common": null
         },
         {
           "type": "event",
@@ -504,19 +478,6 @@
           "event": 9,
           "page": 1,
           "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
-          "map": 142,
-          "from": null,
-          "to": null,
-          "event": 30,
-          "page": 1,
-          "line": 1,
           "id": null,
           "value": null,
           "any": null,
@@ -560,6 +521,19 @@
           "value": null,
           "any": null,
           "common": false
+        },
+        {
+          "type": "transition",
+          "map": null,
+          "from": 215,
+          "to": 225,
+          "event": null,
+          "page": null,
+          "line": null,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
         }
       ],
       "start": false
