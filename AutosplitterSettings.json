@@ -1,6 +1,6 @@
 {
-  "Any%": true,
+  "Any%": false,
   "Burial": false,
-  "Incest%": false,
+  "Incest%": true,
   "Andy Route": false
 }

@@ -523,17 +523,17 @@
           "common": false
         },
         {
-          "type": "transition",
-          "map": null,
-          "from": 215,
-          "to": 225,
-          "event": null,
-          "page": null,
-          "line": null,
+          "type": "event",
+          "map": 225,
+          "from": null,
+          "to": null,
+          "event": 21,
+          "page": 1,
+          "line": 0,
           "id": null,
           "value": null,
           "any": null,
-          "common": null
+          "common": false
         }
       ],
       "start": false
