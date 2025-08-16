@@ -660,19 +660,6 @@
         },
         {
           "type": "event",
-          "map": 143,
-          "from": null,
-          "to": null,
-          "event": 127,
-          "page": 1,
-          "line": 0,
-          "id": null,
-          "value": null,
-          "any": null,
-          "common": false
-        },
-        {
-          "type": "event",
           "map": 131,
           "from": null,
           "to": null,
@@ -696,6 +683,19 @@
           "value": null,
           "any": null,
           "common": false
+        },
+        {
+          "type": "transition",
+          "map": null,
+          "from": 122,
+          "to": 124,
+          "event": null,
+          "page": null,
+          "line": null,
+          "id": null,
+          "value": null,
+          "any": null,
+          "common": null
         }
       ],
       "start": false
